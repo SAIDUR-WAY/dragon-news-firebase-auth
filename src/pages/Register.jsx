@@ -1,10 +1,12 @@
 import React from 'react';
-import { Button, Form } from 'react-bootstrap';
+import { Button, Card, Form } from 'react-bootstrap';
 
-const Login = () => {
-     return (
-          <>
-     <h2 className='text-center fw-bold'>Please Login</h2>
+
+
+const Register = () => {
+  return (
+     <>
+     <h2 className='text-center'>Please Register</h2>
      <Form className='w-50 mx-auto'>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
@@ -23,7 +25,9 @@ const Login = () => {
       </Button>
     </Form>
      </>
-     );
+  );
+
+
 };
 
-export default Login;
+export default Register;

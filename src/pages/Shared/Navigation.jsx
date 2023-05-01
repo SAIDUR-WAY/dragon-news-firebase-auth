@@ -19,6 +19,7 @@ const Navigation = () => {
           <Nav>
             
             <Button variant="dark"><Link to='/login'>Login</Link></Button>
+            <Button variant="dark"><Link to='/register'>SignUp</Link></Button>
             
           </Nav>
         </Navbar.Collapse>

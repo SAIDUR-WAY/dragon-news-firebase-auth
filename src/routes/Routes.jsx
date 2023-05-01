@@ -9,6 +9,7 @@ import NewsLayout from "../layout/NewsLayout";
 import News from "../pages/News/News/News";
 import Login from "../pages/Login/Login";
 import LoginLayout from "../layout/LoginLayout";
+import Register from "../pages/Register";
 
 
    const router = createBrowserRouter([
@@ -24,6 +25,10 @@ import LoginLayout from "../layout/LoginLayout";
                {
                     path: 'login',
                     element: <Login></Login>
+               },
+               {
+                    path: 'register',
+                    element: <Register></Register>
                }
           ]
      },
